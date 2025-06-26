@@ -8,27 +8,91 @@ body {
     font-family: 'Arial', 'Serif', 'Sans-serif';
 }
 
-#HomeHeader {
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 64px;
+#Home {
+    background-color: aqua;
 }
 
-#Recipes {
+h1 {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 64px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#HomeHeader {
+    background-color: white;
+    color: aqua;
+}
+
+.Container {
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.image {
     align-items: center;
     margin: auto;
     width: 150px;
-    background-color: azure;
+}
+
+a {
     font-size: 32px;
-    padding-left: 8px;
+}
+
+.recipe {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients, .steps {
+    margin-left: 50px;
+}
+
+#pizza {
+    display: flex;
+    flex-direction: row;
+}
+
+.home_link {
+    margin: auto;
+    width: 50px;
+}
+
+.main {
     border: 2px solid black;
-    border-radius: 5px;
+}
+
+ul {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+ol {
+    padding-left: 25px;
+    border: 2px solid black;
 }
 
 li {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.last {
-    margin-bottom: 10px;
+p {
+    margin-bottom: 20px;
+}
+
+div {
+    align-items: center;
 }
